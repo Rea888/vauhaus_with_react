@@ -1,10 +1,10 @@
 import './bootstrap';
 
 import React from 'react';
-import ReactDom from 'react-dom';
+import { createRoot } from 'react-dom/client'; // Corrected here
 
 import App from './components/App'
 
 if (document.getElementById('app')){
-    ReactDom.render(<App />,document.getElementById('app'));
+    createRoot(document.getElementById('app')).render(<App />);
 }
