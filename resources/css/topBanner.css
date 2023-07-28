@@ -36,3 +36,64 @@ html, body {
     color: #ffffff;
     font-size: 22px;
 }
+
+.smallDog{
+    height: 200px;
+    width: 200px;
+}
+
+.mediumDog{
+    height: 200px;
+    width: 200px;
+}
+
+.bigDog{
+    height: 200px;
+    width: 200px;
+}
+
+.serviceCard{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 8px 0 rgb(4, 55, 105, 0.2);
+}
+
+.serviceCard:hover{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 16px 0 rgb(4, 55, 105, 0.2);
+}
+
+.serviceName{
+    color: #051b35;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.serviceDetail{
+    color: #051b35;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.serviceMainTitle{
+    color: #051b35;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.bottom{
+    background-color: #051b35 ;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
+    
+}
